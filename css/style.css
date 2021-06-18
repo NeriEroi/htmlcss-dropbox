@@ -23,15 +23,24 @@ header {
 
 /* first-ul */
 
+.header-container #first-ul {
+    content: '';
+    display: table;
+    clear: both;
+    height: 80px;
+    line-height: 80px;
+    display: inline-block;
+}
+
 .header-container #first-ul li {
     float: left;
     list-style-type: none;
     padding-left: 30px;
-    line-height: 80px;
 }
 
 .header-container #first-ul li a #logo-small {
     vertical-align: middle;
+    padding-bottom: 4px;
 }
 
 /* / first-ul */
@@ -45,6 +54,16 @@ header {
 
 
 /* second-ul */
+
+.header-container #second-ul {
+    content: '';
+    display: table;
+    clear: both;
+    height: 80px;
+    line-height: 80px;
+    float: right;
+    display: inline-block;
+}
 
 .header-container #second-ul li {
     float: right;
@@ -104,12 +123,13 @@ main #banner {
 
 #banner .banner-container #button #annulla {
     padding-top: 15px;
+    font-size: 14px;
     font-weight: 600;
 }
 
 #banner .banner-container #button #arrow {
     font-size: 40px;
-    padding-top: 30px;
+    padding-top: 10px;
 }
 
 .banner-container #client-proposal {
@@ -123,3 +143,151 @@ main #banner {
     width: 100%;
 }
 
+/* / banner */
+
+
+/* packages to buy */
+
+/* common columns and title */
+
+.packages-container {
+    width: 65%;
+    margin: auto;
+    margin-top: 210px;
+}
+
+.packages-container .title {
+    font-size: 39px;
+}
+
+.packages-container .buttons .button,
+.packages-container .buttons .button2 {
+    font-size: 20px;
+    font-weight: 600;
+    display: inline;
+    margin-top: 30px;
+}
+
+.packages-container .buttons .button2 {
+    padding-left: 20px;
+}
+
+.packages-container .buttons {
+    padding-top: 50px;
+}
+
+.packages-container .columns-container {
+    padding-top: 40px;
+}
+
+.packages-container .columns-container .col {
+    width: 28%;
+    border: 1px solid lightgrey;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.packages-container .columns-container .col.first .col-first-title,
+.packages-container .columns-container .col.second .col-second-title,
+.packages-container .columns-container .col.third .col-third-title {
+    border-bottom: 1px solid lightgrey;
+    text-align: center;
+    line-height: 50px;
+}
+
+.packages-container .columns-container .col.first span,
+.packages-container .columns-container .col.second span,
+.packages-container .columns-container .col.third span {
+    font-weight: 600;
+}
+
+/* / common columns and titles */
+
+
+/* wrap-text first, second, third col */
+
+.col.first .wrap-text,
+.col.second .wrap-text,
+.col.third .wrap-text {
+    padding-top: 35px;
+    padding-left: 25px;
+}
+
+.col.first .wrap-text .type-price h3,
+.col.second .wrap-text .type-price h3,
+.col.third .wrap-text .type-price h3 {
+    padding-bottom: 20px;
+}
+
+.col.first .wrap-text .type-price h4,
+.col.second .wrap-text .type-price h4,
+.col.third .wrap-text .type-price h4 {
+    line-height: 40px;
+}
+
+.col.first .wrap-text .type-description,
+.col.second .wrap-text .type-description,
+.col.third .wrap-text .type-description {
+    padding-top: 40px;
+}
+
+.col.first .wrap-text .type-description p,
+.col.second .wrap-text .type-description p,
+.col.third .wrap-text .type-description p {
+    line-height: 40px;
+}
+
+.col.first .wrap-text .free-buy p,
+.col.second .wrap-text .free-buy p,
+.col.third .wrap-text .free-buy p {
+    line-height: 60px;
+    padding-top: 40px;
+    padding-left: 35px;
+}
+
+.col.first .wrap-text .free-buy p #try-free,
+.col.second .wrap-text .free-buy p #try-free,
+.col.third .wrap-text .free-buy p #try-free {
+    color: white;
+    background-color: #0061FF;
+    padding: 5px 10px 5px 10px;
+}
+
+.col.first .wrap-text .free-buy p #buynow a,
+.col.second .wrap-text .free-buy p #buynow a,
+.col.third .wrap-text .free-buy p #buynow a {
+    text-decoration: none;
+    color: #0061FF;
+}
+
+hr {
+    width: 20%
+}
+
+.col.first .wrap-text .second-text,
+.col.second .wrap-text .second-text,
+.col.third .wrap-text .second-text {
+    padding-top: 50px;
+}
+
+.col.first .wrap-text .second-text,
+.col.second .wrap-text .second-text,
+.col.third .wrap-text .second-text {
+    line-height: 40px;
+}
+
+.col.first .wrap-text .second-text ul,
+.col.second .wrap-text .second-text ul,
+.col.third .wrap-text .second-text ul {
+    list-style-type: none;
+}
+
+.col.first .wrap-text .second-text ul li i,
+.col.second .wrap-text .second-text ul li i,
+.col.third .wrap-text .second-text ul li i {
+    color: blue;
+}
+
+/* wrap-text first, second, third col */
+
+/* / packages to buy */
