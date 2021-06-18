@@ -8,6 +8,9 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+
+/* header attributes  */
+
 header {
     width: 100%;
     height: 80px;
@@ -16,6 +19,9 @@ header {
 .header-container {
     height: 80px;
 }
+
+
+/* first-ul */
 
 .header-container #first-ul li {
     float: left;
@@ -28,11 +34,17 @@ header {
     vertical-align: middle;
 }
 
+/* / first-ul */
+
+
 .header-container #first-ul li a,
 .header-container #second-ul li a {
     color: black;
     text-decoration: none;
 }
+
+
+/* second-ul */
 
 .header-container #second-ul li {
     float: right;
@@ -43,8 +55,71 @@ header {
 
 .header-container #second-ul li a #inizia {
     color: white;
-    background-color: blue;
+    background-color: #0061FF;
     padding: 5px 15px;
 }
 
+/* / second-ul */
+
+/* / header attributes  */
+
+
+
+/* main attributes */
+
+/* banner */
+
+main #banner {
+    width: 100%;
+    height: 800px;
+    background: #B4D0E7;
+}
+
+.banner-container {
+    width: 85%;
+    margin: auto;
+    position: relative;
+}
+
+#banner .banner-container h1 {
+    font-size: 90px;
+    padding: 90px 0 0 90px;
+}
+
+#banner .banner-container p {
+    padding: 40px 0 0 90px;
+    font-weight: 600;
+}
+
+#banner .banner-container #button{
+    padding: 40px 0 0 90px;
+}
+
+#banner .banner-container #button a {
+    text-decoration: none;
+    color: white;
+    background-color: #0061FF;
+    padding: 5px 15px;
+}
+
+#banner .banner-container #button #annulla {
+    padding-top: 15px;
+    font-weight: 600;
+}
+
+#banner .banner-container #button #arrow {
+    font-size: 40px;
+    padding-top: 30px;
+}
+
+.banner-container #client-proposal {
+    width: 900px;
+    position: absolute;
+    top: 60%;
+    left: 39%;
+}
+
+.banner-container #client-proposal img {
+    width: 100%;
+}
 
