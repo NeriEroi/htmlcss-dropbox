@@ -24,9 +24,6 @@ header {
 /* first-ul */
 
 .header-container #first-ul {
-    content: '';
-    display: table;
-    clear: both;
     height: 80px;
     line-height: 80px;
     display: inline-block;
@@ -56,9 +53,6 @@ header {
 /* second-ul */
 
 .header-container #second-ul {
-    content: '';
-    display: table;
-    clear: both;
     height: 80px;
     line-height: 80px;
     float: right;
@@ -154,6 +148,7 @@ main #banner {
     width: 65%;
     margin: auto;
     margin-top: 210px;
+    padding-left: 90px;
 }
 
 .packages-container .title {
@@ -289,5 +284,62 @@ hr {
 }
 
 /* wrap-text first, second, third col */
+
+
+/* sales office container  */
+
+.sales-office-container {
+    border: 1px solid lightgrey;
+    width: 90%;
+    margin-top: 60px;
+    position: relative;
+}
+
+/* / sales office container  */
+
+
+/* sales office title  */
+
+.sales-office-container .sales-office-title {
+    text-align: center;
+    line-height: 50px;
+    border-bottom: 1px solid lightgrey;
+}
+
+/* / sales office title  */
+
+
+/* enterprise  */
+
+.sales-office-container .enterprise {
+    padding-top: 30px;
+    padding-left: 30px;
+    line-height: 40px;
+    display: inline-block;
+}
+
+.sales-office-container .enterprise p {
+    padding-top: 10px;
+}
+
+/* / enterprise  */
+
+
+/* enterprise-button  */
+
+.sales-office-container .enterprise-button {
+    position: absolute;
+    top: 90px;
+    right: 30px;
+}
+
+.sales-office-container .enterprise-button a {
+    text-decoration: none;
+    color: white;
+    background-color: #0061FF;
+    padding: 8px 60px;
+}
+
+/* / enterprise-button  */
 
 /* / packages to buy */
