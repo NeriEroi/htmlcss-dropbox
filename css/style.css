@@ -277,7 +277,7 @@ main #banner {
     color: #0061FF;
 }
 
-hr {
+ hr {
     width: 20%
 }
 
@@ -510,11 +510,14 @@ hr {
 }
 
 .logo-text-row {
-    width: 100vw;
+    width: 100vw;  
+}
+
+.logo-text-row:after {
     content: '';
     display: table;
-    clear: both; 
-}
+    clear: both;
+} 
 
 .logo-text-row .logos {
     width: 30vw;
@@ -604,7 +607,10 @@ hr {
 .logo-text-row .text .text-container .designit-container img {
     width: 100%;
     padding-bottom: 50px;
-    border-bottom: 1px solid grey;
+}
+
+.logo-text-row .text .text-container .designit-container hr{
+    width: 31%;
 }
 
 .logo-text-row .text .text-container p {
