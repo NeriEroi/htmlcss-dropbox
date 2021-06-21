@@ -592,3 +592,41 @@ hr {
 /* / clients' text */
 
 /* / clients */
+
+
+/* free trial */
+
+#free-trial {
+    background-color: #B4D0E7;
+}
+
+.free-trial-container {
+    width: 65%;
+    height: 400px;
+    margin: auto;
+    padding-top: 150px;
+}
+
+.free-trial-container h2 {
+    font-size: 40px;
+    color: #61082B;
+    float: left;
+    vertical-align: middle;
+}
+
+.free-trial-container .button {
+    position: relative;
+    left: 500px;
+}
+
+.free-trial-container .button a {
+    font-size: 15px;
+    padding: 5px 50px;
+    color: black;
+    background-color: cornsilk;
+    text-decoration: none;
+    float: left;
+    vertical-align: middle;
+}
+
+/* / free trial */
