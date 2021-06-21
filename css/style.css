@@ -69,6 +69,25 @@ header {
     line-height: 80px;
 }
 
+.header-container #second-ul li:hover .bonus {
+    display: block;
+}
+
+.header-container #second-ul li .bonus {
+    display: none;
+    background-color: white;
+    padding: 0 10px 0 10px;
+}
+
+.header-container #second-ul li .bonus.header {
+    border-top: 1px solid blue;
+    display: none;
+}
+
+.header-container #second-ul li:hover .bonus.header {
+    display: block;
+}
+
 .header-container #second-ul li a #inizia {
     color: white;
     background-color: #0061FF;
