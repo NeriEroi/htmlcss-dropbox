@@ -343,3 +343,55 @@ hr {
 /* / enterprise-button  */
 
 /* / packages to buy */
+
+
+/* find a partner */
+
+.find-a-partner-container {
+    width: 65%;
+    padding-left: 50px;
+    margin: auto;
+    margin-top: 150px;
+    margin-left: 374px;
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.find-a-partner-container .partner-image-container {
+    width: 600px;
+    float: left;
+}
+
+.find-a-partner-container .partner-image-container img {
+    width: 100%;
+}
+
+.find-a-partner-container .partner-text-container {
+    float: left;
+    padding-top: 50px;
+    padding-left: 60px;
+}
+
+.find-a-partner-container .partner-text-container h2 {
+    font-size: 30px;
+}
+
+.find-a-partner-container .partner-text-container p {
+    padding-top: 35px;
+    line-height: 30px;
+    font-size: 19px;
+}
+
+.partner-text-container .partner-button {
+    padding-top: 40px;
+}
+
+.partner-text-container .partner-button a {
+    color:black;
+    padding: 10px 30px;
+    border: 1px solid black;
+    text-decoration: none;
+}
+
+/* / find a partner */
