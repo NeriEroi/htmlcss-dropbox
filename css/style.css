@@ -726,7 +726,7 @@ main #banner {
     display: block;
 }
 
-.faq-container .p-container:hover p .fas.fa-chevron-down {
+.faq-container .p-container:hover p #ghost-arrow-down {
     display: none;
 }
 
