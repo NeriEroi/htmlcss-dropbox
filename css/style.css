@@ -204,6 +204,10 @@ main #banner {
     margin-right: 30px;
 }
 
+.packages-container .columns-container .col .wrap-text .second-text ul li .fas {
+    margin-left: -19px;
+}
+
 .packages-container .columns-container .col.first .col-first-title,
 .packages-container .columns-container .col.second .col-second-title,
 .packages-container .columns-container .col.third .col-third-title {
@@ -513,7 +517,7 @@ main #banner {
     width: 100vw;  
 }
 
-.logo-text-row:after {
+.logo-text-row::after {
     content: '';
     display: table;
     clear: both;
@@ -590,6 +594,7 @@ main #banner {
 .logo-text-row .logos .clear-container img {
     width: 100%;
     vertical-align: middle;
+    filter: invert(1);
 }
 
 
@@ -664,3 +669,38 @@ main #banner {
 }
 
 /* / free trial */
+
+
+/* FAQ */
+
+.faq-container {
+    width: 65%;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.faq-container h1 {
+    font-size: 32px;
+}
+
+.faq-container .p-container {
+    padding-top: 50px;
+}
+
+.faq-container .p-container p {
+    border-top: 1px solid lightgrey;
+    padding: 35px 0 35px 0;
+    position: relative;
+}
+
+.faq-container .p-container p:last-child {
+    border-bottom: 1px solid lightgrey;
+}
+
+.faq-container .p-container p .fas {
+    position: absolute;
+    right: 40px;
+}
+
+/* / FAQ */
